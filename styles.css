@@ -1,7 +1,10 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
 
 body {
     background-color: #707890;
+    background-image: linear-gradient(#3D29B1, #7C48C2 95%);
+    font-family: 'Indie Flower', cursive;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -11,7 +14,7 @@ body {
 }
 
 .quiz-container {
-    background-color: #707890;
+    background-color: #fff;
     border-radius: 10px;
     box-shadow: 0 0 10px 2px rgba(100, 100, 100, 0.1);
     width: 600px;
@@ -60,5 +63,14 @@ button:hover {
 
 button:focus {
     outline: none;
-    background-color:rgb(53, 173, 73);
+}
+
+footer {
+    font-family: 'Indie Flower';
+    color: #fff;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
 }
