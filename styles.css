@@ -17,18 +17,66 @@ body {
     background-color: #fff;
     border-radius: 10px;
     box-shadow: 0 0 10px 2px rgba(100, 100, 100, 0.1);
-    width: 600px;
+    width: 90%;
+    max-width: 600px;
+    max-height: 90%;
     overflow: hidden;
+}
+
+.progressbar-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 24px;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+}
+
+.progressbar {
+    height: 25px;
+    background-color:#fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 2px rgba(100, 100, 100, 0.1);
+    width: 30%;
+    overflow: hidden;
+}
+
+.progress {
+    background-color: #F88D31;
+    width: 0px;
+    height: 100%;
 }
 
 .quiz-header {
     padding: 4rem;
+    padding-top: 2rem;
+}
+
+h1 {
+    padding: 1rem;
+    text-align: center;
+    margin: 0px;
 }
 
 h2 {
     padding: 1rem;
     text-align: center;
     margin: 0px;
+}
+
+.quiz-selection {
+    display: block;
+    margin: 5px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 2px rgba(100, 100, 100, 0.1);
+}
+
+.hidden {
+    display: none;
 }
 
 ul {
@@ -46,7 +94,7 @@ ul li label {
 }
 
 button {
-    background-color: rgb(75, 212, 236);
+    background-color: #F88D31;
     color: #fff;
     border: none;
     display: block;
@@ -58,11 +106,15 @@ button {
 }
 
 button:hover {
-    background-color: rgb(53, 155, 173);
+    background-color: #ca6f1f;
 }
 
 button:focus {
     outline: none;
+}
+
+#submit {
+    display: block;
 }
 
 footer {
